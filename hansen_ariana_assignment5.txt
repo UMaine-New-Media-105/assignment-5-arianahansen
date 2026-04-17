@@ -7,3 +7,10 @@ P5js sketch URL: https://editor.p5js.org/AscendingHands/sketches/JNjPgzu7d
 How it went: Admittedly it took me awhile to create a sketch I was happy with - initially I tried to find a way to program a kind of collision into this assignment. In other words, I tried to restrain the random movements to the visible portion of the screen, because I felt like the sketch became boring when the circles could no longer be seen. I didn't manage to get this working, but I did manage to tie the circles' x position to their stroke color. With this in mind, I drew a white rectangle in the backgrounds so the differences could be more easily seen. For awhile also, I tried to get the circles to react to the mouse's position by moving away from the mouse, but after some trial and error, I decided I liked it better when the circles were all drawn to the mouse's position with a click. This also solved my collsion issue, since it was no longer necessary - all of the circles can be summoned with a click now.
 
 Edit: My friend gave me a good suggestion on how to get collision to work, so with his guidance, I cleaned up the code to make it more consistant, and so that the collision functions, adding visual flare to the interactivity.
+
+
+Assignment: 5
+---
+Challenge: 2
+P5js sketch URL: https://editor.p5js.org/AscendingHands/sketches/8YZcujm_c
+How it went: Considering the number of examples in videos on how to create an array, adding the 50 bubbles was not a challenge at all. It was simply a matter of using i (for index) in order to properly set up the array so that it could be manipulated by changing a single variable. What was difficult was adding the ability to manipulate the bubbles' collision in respects to the mouse. Once again, my friend gave me insights in order to properly figure out how to code this. The difference between the dist and createVector functions are not entirely lost on me, but what I do find confusing is why they aren't interchangable. I spent some time experimenting with dist instead of createVector, but the code began to act extremely strangely as a result. Otherwise. the sketch was completed without difficulty.
